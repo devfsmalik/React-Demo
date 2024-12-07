@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-fill: 246, 246, 250;
+    --color-primary: 26, 86, 219;
+    --color-secondary: 255, 200, 20;
+    --color-primary-hover: 255, 200, 20;
+  }
+  .dark {
+    --color-fill: 246, 246, 250;
+    --color-primary: 58, 117, 181;
+    --color-secondary: 255, 200, 20;
+    --color-primary-hover: 255, 200, 20;
+  }
+  .light {
+    --color-fill: 246, 246, 250;
+    --color-primary: 26, 86, 219;
+    --color-secondary: 255, 200, 20;
+    --color-primary-hover: 255, 200, 20;
+    /* --color-primary-light: 165, 184, 181; 
+     --color-background-dark: 20, 20, 20; 
+     --color-side-bar-bg: 240, 240, 240;
+     --color-default-bg: 255, 255, 255;
+     --color-secondary-bg: 66, 109, 172;
+     --color-secondary-bg-1: 30, 32, 33;
+     --color-secondary-bg-2: 53, 56, 58;
+     --color-text-main: 0, 0, 0;
+     --color-selected: 45, 45, 45;
+     --color-un-selected: 107, 114, 128; */
+  }
+}
+
